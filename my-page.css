@@ -1,0 +1,174 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+  
+.selection {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    padding-top: 4%;
+    padding-bottom:4%;
+    background-color: #191919c9;
+}
+
+.dev {
+    color: #0077b6;
+}
+
+.hck {
+    color:crimson;
+}
+
+
+button {
+    background-color:firebrick;
+    margin-top: 120px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 7px;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    transition: 0.2s;
+    
+}
+
+button:hover {
+    background-color: rgba(178, 34, 34, 0.76);
+    cursor: pointer;
+    transition: 0.2s;
+
+}
+
+
+h3 {
+    font-size: 15px;
+
+}
+
+
+
+@media(min-width: 1000px){
+    body {
+        background-repeat: no-repeat;
+        background-color: #cccccc;
+        background-size: 100%;
+        background-image: url('images/background.jpg');
+    }
+
+    .my-img {
+        content:url("images/kavin-image-s.jpg");
+        width: 35%;
+    }
+
+    .div1 {
+        width: 900px;
+        max-width: 95%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .div2 {
+        width: 50%;
+    }
+    
+    .div2 h1 {
+        color: white;
+        font-size: 450%;
+        margin-bottom: 5%;
+        margin-top: 5%;
+        font-family:sans-serif;
+        letter-spacing: 5px;
+    }
+
+    .div2 h2 {
+        color: rgb(255, 255, 255);
+        font-size: 150%;
+        margin-top: -20px;
+        margin-bottom: 20px;
+        text-transform: capitalize;
+        letter-spacing: 6.2px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    .div2 p{
+        color:cadetblue;
+        font-size: 115%;
+        line-height: 30px;
+        letter-spacing: 2px;
+        margin-bottom: -100px;
+    }
+
+  }
+
+
+@media(max-width: 1000px){
+    body {
+        background-repeat: no-repeat;
+        background-color: #cccccc;
+        background-size: 250%;
+        background-image: url('images/background.jpg');
+    }
+
+    .my-img {
+        content:url("images/kavin-image-s.jpg");
+        width: 35%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .div1 {
+        width: 900px;
+        max-width: 95%;
+        margin: 0 auto;
+        display: grid;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .div2 {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        align-items: center;
+    }
+
+    .div2 h1 {
+        color: white;
+        font-size: 275%;
+        text-align: center;
+        margin-bottom: 5%;
+        margin-top: 5%;
+        margin-left: 100px;
+        margin-right: 100px;
+        font-family: sans-serif;
+    }
+
+    .div2 h2 {
+        color: rgb(255, 255, 255);
+        font-size: 150%;
+        margin-top: -20px;
+        margin-bottom: 20px;
+        text-transform: capitalize;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    .div2 p{
+        color:cadetblue;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 115%;
+        line-height: 30px;
+        letter-spacing: 2px;
+        margin-bottom: -100px;
+    }
+
+}
