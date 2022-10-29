@@ -62,7 +62,7 @@ h3 {
     }
 
     .my-img {
-        content:url("images/kavin-image-s.jpg");
+        content:url("images/kavin-image.jpg");
         width: 35%;
     }
 
@@ -113,7 +113,7 @@ h3 {
     body {
         background-repeat: no-repeat;
         background-color: #cccccc;
-        background-size: 400%;
+        background-size: 375%;
         background-image: url('images/background.jpg');
     }
 
