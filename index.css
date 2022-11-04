@@ -58,12 +58,13 @@ h3 {
         background-repeat: no-repeat;
         background-color: #cccccc;
         background-size: 100%;
-        background-image: url('images/background.jpg');
+        background-image: url('/images/background.jpg');
     }
 
     .my-img {
-        content:url("images/kavin-image.jpg");
+        content:url("/images/img2.jpg");
         width: 35%;
+        border-radius: 2.5px;
     }
 
     .div1 {
@@ -83,7 +84,7 @@ h3 {
         color: white;
         font-size: 450%;
         margin-bottom: 5%;
-        margin-top: 5%;
+        margin-top: -2%;
         font-family:sans-serif;
         letter-spacing: 5px;
     }
@@ -114,14 +115,15 @@ h3 {
         background-repeat: no-repeat;
         background-color: #cccccc;
         background-size: 335%;
-        background-image: url('images/background.jpg');
+        background-image: url('/images/background.jpg');
     }
 
     .my-img {
-        content:url("images/kavin-image-s.jpg");
+        content:url("/images/img2s.jpg");
         width: 35%;
         margin-left: auto;
         margin-right: auto;
+        border-radius: 2.5px;
     }
 
     .div1 {

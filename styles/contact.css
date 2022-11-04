@@ -1,0 +1,144 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+  
+
+
+.dev {
+    color: #0077b6;
+}
+
+.hck {
+    color:crimson;
+}
+
+
+button {
+    background-color:firebrick;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 7px;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    transition: 0.2s;
+    
+}
+
+button:hover {
+    background-color: rgba(178, 34, 34, 0.76);
+    cursor: pointer;
+    transition: 0.2s;
+
+}
+
+
+h3 {
+    font-size: 18px;
+}
+
+a{
+    margin-top: 10%;
+}
+
+.button {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.div1 {
+    width: 900px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: grid;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+
+
+@media(min-width: 1000px){
+
+    .selection {
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10%;
+        margin-bottom: 4%;
+        padding-top: 3%;
+        padding-bottom:3%;
+        background-color: #191919c9;
+    }
+
+    body {
+        background-repeat: no-repeat;
+        background-color: #cccccc;
+        background-size: 100%;
+        background-image: url('/images/background.jpg');
+    }
+    
+    h2 {
+        font-size: 100%;
+        color:rgb(167, 167, 167);
+        margin-left: auto;
+        margin-right: auto;
+        font-family: sans-serif;
+        margin-top: 10%;
+    }
+
+    h1 {
+        font-size: 250%;
+        color:rgb(167, 167, 167);
+        margin-left: auto;
+        margin-right: auto;
+        font-family: sans-serif;
+        margin-top: 10%;
+    }
+
+}
+
+
+@media(max-width: 1000px){
+
+    .selection {
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50%;
+        margin-bottom: 50%;
+        padding-top: 4%;
+        padding-bottom:4%;
+        background-color: #191919c9;
+    }
+
+    body {
+        background-repeat: no-repeat;
+        background-color: #cccccc;
+        background-size: 335%;
+        background-image: url('/images/background.jpg');
+    }
+
+    h2 {
+        font-size: 100%;
+        color:rgb(167, 167, 167);
+        margin-left: auto;
+        margin-right: auto;
+        font-family: sans-serif;
+        margin-top: 10%;
+    }
+
+    h1 {
+        font-size: 180%;
+        color:rgb(167, 167, 167);
+        margin-left: auto;
+        margin-right: auto;
+        font-family: sans-serif;
+        margin-top: 10%;
+    }
+
+}
